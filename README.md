@@ -1,2 +1,2 @@
 # swift_SNe_lclr
-a linear regression function code that will spit out each light curve w/ a linear regression on top
+a linear regression function code that will spit out each light curve w/ a linear regression on top. The function takes in MJD start and end dates as a part of its input, and therefore the actual linear best fit and the slope of the fit is based off the MJD start and end dates for each filter, so please keep this in mind. All of the slopes I have generated in the slopes_filter.txt files are based off of the MJD dates in the New MJD Cuts.xlsx file
